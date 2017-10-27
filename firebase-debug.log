@@ -1,0 +1,30 @@
+[debug] [2017-10-27T04:57:36.076Z] ----------------------------------------------------------------------
+[debug] [2017-10-27T04:57:36.078Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase login
+[debug] [2017-10-27T04:57:36.079Z] CLI Version:   3.11.0
+[debug] [2017-10-27T04:57:36.079Z] Platform:      win32
+[debug] [2017-10-27T04:57:36.079Z] Node Version:  v8.0.0
+[debug] [2017-10-27T04:57:36.079Z] Time:          Fri Oct 27 2017 14:57:36 GMT+1000 (E. Australia Standard Time)
+[debug] [2017-10-27T04:57:36.079Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=767588597&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2017-10-27T04:57:48.440Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token { code: '4/eknjILGK1YIyKU2PxAgc-Vj0k0OTzoIribebt208n2g',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  redirect_uri: 'http://localhost:9005',
+  grant_type: 'authorization_code' } 
+ Fri Oct 27 2017 14:57:48 GMT+1000 (E. Australia Standard Time)
+[debug] [2017-10-27T04:57:48.473Z] Token Fetch Error: Error
+    at FirebaseError (C:\Program Files\nodejs\node_modules\firebase-tools\lib\error.js:11:17)
+    at Request._callback (C:\Program Files\nodejs\node_modules\firebase-tools\lib\api.js:32:23)
+    at self.callback (C:\Program Files\nodejs\node_modules\firebase-tools\node_modules\request\request.js:188:22)
+    at emitOne (events.js:115:13)
+    at Request.emit (events.js:210:7)
+    at Request.onRequestError (C:\Program Files\nodejs\node_modules\firebase-tools\node_modules\request\request.js:884:8)
+    at emitOne (events.js:115:13)
+    at ClientRequest.emit (events.js:210:7)
+    at TLSSocket.socketErrorListener (_http_client.js:399:9)
+    at emitOne (events.js:115:13)
